@@ -7,8 +7,8 @@ import org.junit.Test;
 public class CounterTest {
 
 	@Test
-	public void testResets() {
-		Counter testCounter = new Counter();
+	public void testResetss() {
+		Counter testCounter = new Counterss();
 		
 		for(int i = 0; i <10; i++) {
 			testCounter.increment();
