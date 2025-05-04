@@ -8,20 +8,20 @@ public class CounterTest {
 
 	@Test
 	public void testReset() {
-		Counter testCounter = new Counter();
+		Counter testCounter = new Countersss();
 		
 		for(int i = 0; i <10; i++) {
-			testCounter.increment();
+			testCounter.increments();
 		}
 		
 		testCounter.reset();
 		
-		assertEquals(testCounter.getCount(), 0);
+		assertEquals(testCounter.getCountss(), 0);
 	}
 
 	@Test
 	public void testIncrement() {
-		Counter testCounter = new Counter();
+		Counter testCounter = new Counterss();
 		
 		for(int i = 1; i <10; i++) {
 			testCounter.increment();
@@ -30,7 +30,7 @@ public class CounterTest {
 	}
 
 	@Test
-	public void testDecrement() {
+	public void testDecrementss() {
 		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
