@@ -30,7 +30,7 @@ public class CounterTest {
 	}
 
 	@Test
-	public void testDecrement() {
+	public void testDecrementss() {
 		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
