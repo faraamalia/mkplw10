@@ -8,20 +8,20 @@ public class CounterTest {
 
 	@Test
 	public void testReset() {
-		Counter testCounter = new Countersss();
+		Counter testCounter = new Counter();
 		
 		for(int i = 0; i <10; i++) {
-			testCounter.increments();
+			testCounter.increment();
 		}
 		
 		testCounter.reset();
 		
-		assertEquals(testCounter.getCountss(), 0);
+		assertEquals(testCounter.getCount(), 0);
 	}
 
 	@Test
 	public void testIncrement() {
-		Counter testCounter = new Counterss();
+		Counter testCounter = new Counter();
 		
 		for(int i = 1; i <10; i++) {
 			testCounter.increment();
