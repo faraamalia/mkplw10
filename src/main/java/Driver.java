@@ -8,11 +8,11 @@ public class Driver {
 		
 		System.out.println("Count:" + counter.getCount());
 		
-		counter.increment();
+		counter.increment(10);
 		
 		System.out.println("Count:" + counter.getCount());
 		
-		counter.decrement();
+		counter.decrement(5);
 		
 		System.out.println("Count:" + counter.getCount());
 		
